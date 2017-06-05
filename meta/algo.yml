@@ -1,3 +1,8 @@
 algo:
-  name: bootstrap
+  name: dns-adblock
   type: feature
+   arguments:
+    - argument: --adblock
+      default: algo
+      help: The name of the instance
+      dest: dns_adblock
